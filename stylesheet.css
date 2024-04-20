@@ -1,45 +1,57 @@
-.nav-container {
+body {
+    margin: 0;
+}
+
+.nav-section {
     background-color: #1F2937;
     font-family: sans-serif;
     display: flex;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 30px 60px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    width: 150px;
+    height: auto;
 }
 
-.headerlink {
+.headerlinks {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 100;
-    justify-content: space-between;
+    display: inline-flex;
+    gap: 15px;
 }
 
 .hero-section {
     background-color: #1F2937;
     display: flex;
-    padding: 60px;  
+    justify-content: space-between;
+    padding: 30px 60px; 
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    width: 450px;
+    height: auto;
+    gap: 15px;
+    margin-left: 60px;
+    justify-content: center;
 }
 
 .main-hero{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    flex-direction: column;
 }
 
 .secondary-hero {
     font-size: 18px;
     color: #e5e7eb;
-    flex-direction: column;
 }
 
 button {
@@ -48,19 +60,43 @@ button {
     border: none;
     padding: 10px;
     border-radius: 8px;
-    flex-direction: column;
     width: 100px;
     align-items: center;
     font-size: 18px;
 }
 
 .image-hero {
-    display: flex;
+    display: block;
     background-color: #e5e7eb;
-    padding: 25px;
-    width: 500px;
-    height: 300px;
-    align-items: center;
+    padding: 150px;
+    margin-right: 60px;
+}
+
+.info-section {
+    background-color: white;
+    padding: 30px 60px;
+    display: flex;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     justify-content: center;
 }
 
+.boxes div {
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.infotext div {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
