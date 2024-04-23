@@ -83,18 +83,110 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: auto;
 }
 
-.boxes div {
+.boxcontainer {
+    height: 140px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
     border: #3882f6;
     border-style: solid;
     border-radius: 12px;
     padding: 60px;
-    display: inline-flex;
-    justify-content: space-evenly;
 }
 
-.infotext div {
+.infotxtcontainer {
     display: inline-flex;
+    align-items: center;
     justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.text {
+    font-size: 18px;
+    color: darkgrey;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.review-section {
+    background-color: #e5e7eb;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    justify-content: center;
+}
+
+.reviewtext {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.subreviewtext {
+    text-align: right;
+    font-size: 18px;
+}
+
+.cta-section {
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.ctacontainer {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 60px;
+    width: 100%;
+}
+
+.ctatext {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.ctasubtext {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.ctabutton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid;
+    border-color: #f9faf8;
+    padding: 4px;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    font-weight: 100;
+    color: #f9faf8;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
 }
