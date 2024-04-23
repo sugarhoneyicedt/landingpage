@@ -1,10 +1,10 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .nav-section {
     background-color: #1F2937;
-    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 30px 60px;
@@ -76,14 +76,13 @@ button {
     background-color: white;
     padding: 30px 60px;
     display: flex;
+    flex-direction: column;
 }
 
 .title {
-    font-family: sans-serif;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    justify-content: center;
 }
 
 .boxes div {
@@ -92,8 +91,7 @@ button {
     border-radius: 12px;
     padding: 60px;
     display: inline-flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .infotext div {
